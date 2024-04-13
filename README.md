@@ -45,19 +45,11 @@ Below are listed the assumption I have made during the creation of this project:
   * The only difference between Fitness Classes and Personal training in my database is that personal training sessions are just fitness classes with a capacity of 1, unlike classes which can have a set amount of capacity.
 
 ### Conceptual Database Design - Chen Diagram
+Note: Arrows were used to indicate direction of relationships.
+![Conceptual ER Diagram](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/744a73f4-11d5-43b8-8849-14b546d6df5e)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+### Relational Schema:
+![Database Relational Schema](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/204a3369-db40-4ccd-8f7d-ff90b5cd2271)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
