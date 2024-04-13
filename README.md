@@ -4,22 +4,49 @@ Design and implement an application for a Health and Fitness Club Management Sys
 ## Project Report
 ### Conceptual Design
 
-While creating this project, there are assumptions I have made in order to complete it.
+Below are listed the assumption I have made during the creation of this project:
+* Upon starting the application, you will be asked to log in or sign up.
+  * While signing up, you may choose to be a Member, Trainer, or Admin
+  * This functionality is only for the sake of simplicity and demonstrational purposes, as it is a rather dangerous permission to grant in practical usage. 
+* The Member is a User
+  * The User tables stores all of the personal information
+* The Member has one set of health metrics
+  * These health metrics turn into health statistics, depending on whether or not you are in the dashboard
+  * BMI will be calculated based on the member’s weight and height
+* Each Member can have as many fitness goals as they'd like
+  * These goals are based on the member being able to lift a certain amount of weight (while doing a certain exercise) or doing a certain amount of reps (while doing a certain exercise)
+  * These goals turn into achievements once the user changes their achieved status to ‘achieved’, and will be displayed on the dashboard.
+* Members can have as many exercise routines as they'd like
+  * They must however, set these routines manually
+* Members may take as many personal training sessions & fitness classes as they wish
+  * However, the timing must not conflict with pre-existing booked sessions/classes.
+  * Signing up for a class/session will automatically add it to the member’s schedule
+* Members have a schedule
+  * Which is automatically filled when they sign up for a training session or a fitness class
+* Members pay bills
+  * These bills are provided to them by the admins
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* Trainers are users
+  * The User tables stores all of the personal information
+* Trainers give fitness classes and personal training sessions
+  *However, the timing must not conflict with pre-existing hosted sessions/classes.
+  * They must assign them manually, after which the classes/sessions will be added onto their schedule automatically.
+* Trainers have a schedule
+  * Which is automatically filled when they host a training session or a fitness class.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+* Admins are users
+  * The User tables stores all of the personal information
+* Admins maintain equipment
+  * They must do so in person. After doing so, they will update the maintenance date on the respective equipment
+* Admins send bills to members
+  * They will calculate the amount in person, depending on the member’s purchased classes, they send them a bill amount.
 
-Use the `BLANK_README.md` to get started.
+* Fitness Classes and Personal Training Sessions are stored in a schedule (they are referrenced as foreign keys in the schedule table)
+  * The only difference between Fitness Classes and Personal training in my database is that personal training sessions are just fitness classes with a capacity of 1, unlike classes which can have a set amount of capacity.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Conceptual Database Design - Chen Diagram
 
-
-
-### Built With
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
