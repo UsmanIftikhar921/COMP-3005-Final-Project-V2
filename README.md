@@ -49,7 +49,7 @@ Note: Arrows were used to indicate direction of relationships.
 ![Conceptual ER Diagram](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/744a73f4-11d5-43b8-8849-14b546d6df5e)
 
 ### Relational Schema:
-![Database Relational Schema](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/204a3369-db40-4ccd-8f7d-ff90b5cd2271)
+![Database Relational Schema](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/7cd89601-907d-41f6-8a65-077020f24ce2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
