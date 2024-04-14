@@ -46,7 +46,8 @@ Below are listed the assumption I have made during the creation of this project:
 
 ### Conceptual Database Design - Chen Diagram
 Note: Arrows were used to indicate direction of relationships.
-![Conceptual ER Diagram](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/744a73f4-11d5-43b8-8849-14b546d6df5e)
+![Conceptual ER Diagram](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/98c59e15-90df-415d-9886-3c1bfb522c6f)
+
 
 ### Relational Schema:
 ![Database Relational Schema](https://github.com/UsmanIftikhar921/COMP-3005-Final-Project-V2/assets/95590916/7cd89601-907d-41f6-8a65-077020f24ce2)
